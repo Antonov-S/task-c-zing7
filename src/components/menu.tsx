@@ -1,6 +1,5 @@
 import { links, mobileLinks } from "@/lib/constants";
 import { IoMdClose } from "react-icons/io";
-import Link from "next/link";
 import { Button } from "./ui/button";
 import NavButtonGroup from "./nav-button-group";
 

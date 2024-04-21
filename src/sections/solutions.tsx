@@ -1,6 +1,7 @@
-import { solutions } from "@/lib/constants";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
+
+import { solutions } from "@/lib/constants";
 
 function Solutions() {
   return (
@@ -8,7 +9,7 @@ function Solutions() {
       <h2 className="mb-12 mt-11 font-grotesk text-2xl font-semibold -tracking-[2px] md:mt-[100px] lg:mb-[62px] lg:text-[48px] xl:self-start xl:leading-[115%]">
         Други услуги
       </h2>
-      <div className="flex flex-col gap-8 md:w-full md:justify-center lg:flex-row lg:gap-[24px] xl:justify-start">
+      <div className="flex flex-col gap-8 md:w-full md:justify-center lg:flex-row lg:gap-[24px]">
         {solutions.map((s, i) => (
           <SolutionCard key={i} src={s.src} heading={s.heading} />
         ))}
