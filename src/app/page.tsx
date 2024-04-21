@@ -1,3 +1,4 @@
+import Cta from "@/sections/cta";
 import Hero from "@/sections/hero";
 import MainArea from "@/sections/main-area";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <Hero />
       <MainArea />
+      <Cta />
     </main>
   );
 }
