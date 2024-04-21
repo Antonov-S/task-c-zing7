@@ -1,10 +1,11 @@
 "use client";
 
+import { useState } from "react";
+import clsx from "clsx";
+
 import Logo from "@/components/logo";
 import Menu from "@/components/menu";
-import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import clsx from "clsx";
 
 function Hero() {
   const [isMobuleMenuOpen, setIsMobileMenuOpen] = useState(false);
