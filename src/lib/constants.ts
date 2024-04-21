@@ -1,3 +1,7 @@
+import pic1 from "../app/public/pic1.png";
+import pic2 from "../app/public/pic2.png";
+import pic3 from "../app/public/pic3.png";
+
 export const links = [
   {
     name: "Начало",
@@ -63,4 +67,19 @@ export const services = [
   "Регулярни групажни линии;",
   "Транспортни услуги до Турция и Близкия изток;",
   "Спазване на изискванията за качество и стандарти на клиентите и/или на техни специфични изисквания."
+] as const;
+
+export const solutions = [
+  {
+    src: pic1,
+    heading: "Опасни товари (ADR)"
+  },
+  {
+    src: pic2,
+    heading: "Хладилен транспорт"
+  },
+  {
+    src: pic3,
+    heading: "Извънгабаритни товари"
+  }
 ] as const;
